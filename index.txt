@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Desenvolvimento Pessoal</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Desenvolvimento Pessoal</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#artigos">Artigos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Evolua Todos os Dias</h2>
+      <p>Hábitos, disciplina, produtividade e equilíbrio emocional.</p>
+      <a class="btn" href="#cursos">Ver Cursos</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="block">
+    <h3>Sobre</h3>
+    <p>
+      Desenvolvemos pessoas para alcançarem seu potencial usando psicologia,
+      neurociência e estratégias práticas de melhoria contínua.
+    </p>
+  </section>
+
+  <section id="cursos" class="block">
+    <h3>Cursos</h3>
+
+    <div class="cards">
+
+      <div class="card">
+        <h4>Mindset e Hábitos</h4>
+        <p>Crie hábitos que duram.</p>
+        <button class="btn-card">Saiba mais</button>
+      </div>
+
+      <div class="card">
+        <h4>Gestão Emocional</h4>
+        <p>Controle ansiedade e foco.</p>
+        <button class="btn-card">Saiba mais</button>
+      </div>
+
+      <div class="card">
+        <h4>Produtividade Leve</h4>
+        <p>Organize sua vida sem estresse.</p>
+        <button class="btn-card">Saiba mais</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="artigos" class="block">
+    <h3>Artigos Recentes</h3>
+
+    <div class="cards">
+
+      <div class="card">
+        <h4>Hábitos Inteligentes</h4>
+        <p>Simples ações que mudam seu dia.</p>
+      </div>
+
+      <div class="card">
+        <h4>Como criar disciplina</h4>
+        <p>Estratégias práticas para se manter firme.</p>
+      </div>
+
+      <div class="card">
+        <h4>Controle emocional</h4>
+        <p>Como manter clareza em momentos difíceis.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contato" class="block">
+    <h3>Contato</h3>
+    <form class="form" onsubmit="enviarFormulario(event)">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Mensagem" required></textarea>
+      <button class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © <span id="ano"></span> — Desenvolvimento Pessoal
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
