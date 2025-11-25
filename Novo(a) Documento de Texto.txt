@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Desenvolvimento Pessoal — Evolua Todos os Dias</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-xl font-bold text-indigo-600">Desenvolvimento Pessoal</h1>
+
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#sobre" class="hover:text-indigo-600">Sobre</a>
+        <a href="#cursos" class="hover:text-indigo-600">Cursos</a>
+        <a href="#artigos" class="hover:text-indigo-600">Artigos</a>
+        <a href="#contato" class="hover:text-indigo-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-4xl font-extrabold leading-tight">Desenvolva sua melhor versão</h2>
+      <p class="mt-4 text-gray-600 text-lg">
+        Aumente sua produtividade, desenvolva hábitos poderosos e aprenda a manter equilíbrio emocional.
+      </p>
+
+      <div class="mt-6 flex gap-4">
+        <a href="#cursos" class="px-5 py-3 bg-indigo-600 text-white rounded">Ver Cursos</a>
+        <a href="#artigos" class="px-5 py-3 border rounded">Artigos</a>
+      </div>
+    </div>
+
+    <div class="bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl p-8 shadow">
+      <h3 class="text-xl font-semibold">Desafio de 7 Dias</h3>
+      <p class="mt-2 text-gray-700">Exercícios simples que já trazem resultados na primeira semana.</p>
+      <button class="mt-5 px-4 py-2 bg-purple-600 text-white rounded" onclick="alert('Inscrição realizada! (Exemplo)')">
+        Participar
+      </button>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="bg-white py-16 border-t">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+      <div>
+        <h3 class="text-2xl font-bold">Nossa abordagem</h3>
+        <p class="mt-4 text-gray-600">
+          Usamos técnicas validadas da psicologia comportamental para criar transformação real no seu dia a dia.
+        </p>
+
+        <ul class="mt-4 space-y-2 text-gray-700">
+          <li>✔ Hábitos e disciplina</li>
+          <li>✔ Gestão emocional</li>
+          <li>✔ Produtividade leve</li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow">
+        <h4 class="font-semibold text-lg">Sessão gratuita</h4>
+        <p class="text-sm text-gray-600 mt-2">Agende uma conversa inicial para entender seus objetivos.</p>
+        <a href="#contato" class="mt-4 inline-block px-4 py-2 bg-indigo-600 text-white rounded">Agendar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURSOS -->
+  <section id="cursos" class="py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-bold">Cursos em destaque</h3>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-8">
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="font-semibold">Mindset e Hábitos</h4>
+          <p class="mt-2 text-gray-600">Aprenda a criar hábitos que realmente duram.</p>
+          <button class="mt-4 px-3 py-2 bg-indigo-600 text-white rounded text-sm">Inscrever</button>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="font-semibold">Gestão Emocional</h4>
+          <p class="mt-2 text-gray-600">Controle ansiedade e melhore seu foco.</p>
+          <button class="mt-4 px-3 py-2 bg-indigo-600 text-white rounded text-sm">Inscrever</button>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="font-semibold">Produtividade Consciente</h4>
+          <p class="mt-2 text-gray-600">Organize sua vida sem estresse.</p>
+          <button class="mt-4 px-3 py-2 bg-indigo-600 text-white rounded text-sm">Inscrever</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTIGOS -->
+  <section id="artigos" class="bg-gray-50 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-bold">Últimos artigos</h3>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-8">
+        <article class="bg-white p-6 rounded-xl shadow">
+          <h5 class="font-semibold">Rotina Matinal Poderosa</h5>
+          <p class="mt-2 text-gray-600">Comece o dia com energia e clareza.</p>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow">
+          <h5 class="font-semibold">Micro-hábitos Transformadores</h5>
+          <p class="mt-2 text-gray-600">Pequenas ações, grandes resultados.</p>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow">
+          <h5 class="font-semibold">A Ciência da Motivação</h5>
+          <p class="mt-2 text-gray-600">O que nos move de verdade.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="py-16">
+    <div class="max-w-3xl mx-auto px-6 bg-white p-8 rounded-xl shadow">
+      <h3 class="text-2xl font-bold">Entre em contato</h3>
+      <p class="text-gray-600 mt-2">Tire dúvidas ou solicite informações sobre cursos.</p>
+
+      <form class="mt-6 space-y-4" onsubmit="event.preventDefault(); alert('Mensagem enviada! (Exemplo)')">
+        <input type="text" placeholder="Seu nome" class="w-full border px-4 py-3 rounded" required>
+        <input type="email" placeholder="Seu e-mail" class="w-full border px-4 py-3 rounded" required>
+        <textarea placeholder="Mensagem" class="w-full border px-4 py-3 rounded h-32" required></textarea>
+        <button class="px-4 py-2 bg-indigo-600 text-white rounded">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-600">
+    © <span id="ano"></span> Desenvolvimento Pessoal — Todos os direitos reservados
+  </footer>
+
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
